@@ -106,7 +106,7 @@ Maximum safe learning rate achieved when:
 
 ### Convergence Bound
 
-$$\mathbb{E}[L(\theta_{t+1}) - L^*] \leq \left(1 - \lambda_{\text{eff}}\right) \mathbb{E}[L(\theta_t) - L^*] + \mathcal{R}(\eta^2)$$
+$$\mathbb{E}[L(\theta_{t+1}) - L^{*}] \leq \left(1 - \lambda_{\text{eff}}\right) \mathbb{E}[L(\theta_t) - L^{*}] + \mathcal{R}(\eta^2)$$
 
 where the **effective learning rate** is:
 
@@ -294,7 +294,7 @@ Each gradient step is a hypothesis test:
 ### Optimization Theory
 When $C_\alpha > 1$, approximate Polyak-Łojasiewicz condition holds:
 
-$$|\nabla L|^2 \geq 2\mu(L - L^*) \quad \text{where } \mu \propto C_\alpha$$
+$$|\nabla L|^2 \geq 2\mu(L - L^{*}) \quad \text{where } \mu \propto C_\alpha$$
 
 **Convergence rate:** $(1 - \eta \cdot C_\alpha)^t$
 
