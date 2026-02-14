@@ -1,4 +1,4 @@
-# Unified Theory of Neural Learning Phase Transitions
+# Theory of Neural Learning Phase Transitions
 
 > *"Intelligence emerges as signal consolidation over a collapsing fractal manifold at the edge of spectral stability."*
 
