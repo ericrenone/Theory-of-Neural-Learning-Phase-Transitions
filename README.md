@@ -100,7 +100,7 @@ Maximum safe learning rate achieved when:
 - **Flat:** High $S$, stable $I$, $p \approx 0.75$ → strong generalization
 - **Sharp:** Low $S$, unstable $I$, $p \approx 0.52$ → poor generalization
 
-**Correlation:** $r(p, -\text{gen\_gap}) = -0.87$
+**Correlation:** $r(p, -\text{gen gap}) = -0.87$
 
 ## Mathematical Foundation
 
@@ -124,7 +124,7 @@ $$d\theta_t = -\nabla L(\theta_t) dt + \sqrt{2D} dW_t + \zeta_t$$
 
 Under reparametrization $\phi = h(\theta)$, $C_\alpha$ is invariant in the Fisher-Rao metric:
 
-$$C_\alpha^\phi = C_\alpha^\theta$$
+$$C_\alpha^{\phi} = C_\alpha^{\theta}$$
 
 This makes $C_\alpha$ a **true geometric property** of the learning process.
 
